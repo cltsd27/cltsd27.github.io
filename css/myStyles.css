@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.sidePanel {
+    height: 100%;
+    left: -250px;
+    position: fixed;
+    width: 250px;
+}
+#sideImg {
+    width: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+header{
+    padding: 20px;
+
+}
+nav {
+    text-align: center;
+}
+a {
+    padding: 10px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: lightskyblue;
+}
+
+a:active {
+    background-color: deepskyblue;
+}
+
+.current {
+
+    background-color: #0080ff !important;
+    color: white;
+    
+}
