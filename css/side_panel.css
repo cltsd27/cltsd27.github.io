@@ -1,0 +1,50 @@
+#myFace{
+    padding: 20px;
+    border-radius: 50%;
+    width: 90%;
+}
+#sidePanelText{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
+#builtOn {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.sidePanel {
+    background: url('../images/closebackground.jpg');
+    height: 100%;
+    left: -350px;
+    position: fixed;
+    width: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#sideImg {
+    width: 50px;
+}
+#close {
+    width: 10%;
+    cursor: pointer;
+}
+#topBar {
+    cursor: pointer;
+}
+.contact {
+    color: white;
+}
+.contactDiv {
+    padding-top: 20px;
+    text-align: center;
+}
+#contactPanelButton {
+    padding-top: 9px;
+    display: inline-block;
+    vertical-align: top;
+}
+#contactPanelText {
+    display: inline-block;
+    color: white;
+}

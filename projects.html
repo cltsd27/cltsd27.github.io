@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Christopher Mills</title>
+</head>
+<body>
+    <div class="sidePanel">
+        <img id="close" src="images/close.png">
+        <img id="myFace" src="images/myface.JPG">
+        <p id="sidePanelText">I would like to thank all the visitors for checking out my website! I hope to continue my growth as both a full stack developer and programmer, so any comments are greatly appreciated. This site is still undergoing improvements as my skills grow.</p>
+        <div class="contactDiv">
+            <a class="contact" href="https://github.com/cltsd27">GitHub</a>
+        </div>
+        <div class="contactDiv">
+            <a class="contact" href="https://www.linkedin.com/in/christopher-mills-537260114">LinkedIn</a>
+        </div>
+        <p id="builtOn">This website was built using HTML, CSS and JQuery and built with Grunt. </p> 
+    </div>
+    <div id="topBar">
+        <div id="contactPanelButton">
+            <img id="sideImg" src="images/hamburger.png">
+        </div>
+        <div id="contactPanelText">
+            <p>CONTACT</p>
+        </div>
+    </div>
+    <header>
+        <h1>Projects</h1>
+    </header>
+    <nav>
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="about.html">About Me</a>
+        <a class="nav current" href="#">Projects</a>
+    </nav>
+    <article>
+        <div id="projects">
+            <h3>Rart <em>(March 5th - 6th 2016)</em>:</h3>
+            <p>Rart is an automatic resume templating application that guides a user through creating their resume. It prompts the user to answer questions that will then be used in creating their resume. It features a smart resume functionality which takes alternate skills that the user may have and matches them to a job description, thus making a more relevant resume to a job. This was created in 24 hours during HackUMBC 2016 by myself and a partner. My responsibility was creating the application</p>
+            <p>It was built using Python libraries PyQt4 and pydocx</p>
+            <a class="contact" href="rart.me">Visit Rart</a>
+            <h3>MetaDota <em>(October 2015 - Present)</em>:</h3>
+            <p>MetaDota is a web application that displays heroes from the popular video game DotA 2 and their win rate, pick rate, and score that is assigned using an algorithm I made. My algorithm creates a score contribution from both the win rate and pick rate of each hero to create a score representative of both how popular and how well a hero is doing in the current state of the game. The win rate and score of each hero is obtained by scraping a popular dota stats site. The app is continuously being improved and maintained by myself.</p>
+            <p>It was built using Node.js, Express, MongoDB, pjscrape, PhantomJS, and Jade</p>
+        </div>
+    </article>
+</body>
+<link rel="stylesheet" type="text/css" href="dist/main_styles.min.css">
+<script src="dist/built.min.js"></script>
+</html>

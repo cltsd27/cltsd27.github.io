@@ -1,0 +1,26 @@
+nav {
+    text-align: center;
+}
+.nav {
+    padding: 10px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.nav:hover {
+    background-color: lightskyblue;
+}
+
+.nav:active {
+    background-color: deepskyblue;
+}
+
+.current {
+
+    background-color: darkgray !important;
+    color: black;
+    
+}

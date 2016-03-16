@@ -1,0 +1,26 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cltsd27/personalwebsite.git"
+  },
+  "author": "Christopher Mills",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cltsd27/personalwebsite/issues"
+  },
+  "homepage": "https://github.com/cltsd27/personalwebsite#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0"
+  },
+  "devDependencies": {}
+}

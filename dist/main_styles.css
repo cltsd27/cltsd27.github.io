@@ -1,0 +1,116 @@
+body {
+    background: url(../images/background.jpg);
+    background-repeat: repeat;
+    font-family: Verdana, Geneva, sans-serif;
+    left: 0;
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: #d9d9d9;
+}
+header{
+    padding: 20px;
+
+}
+#exampleImages {
+    overflow: hidden;
+    text-align: center;
+}
+.examples {
+    padding-top: 50px;
+    padding-right: 20px;
+    width: 30%;
+}
+article {
+    text-align: center;
+    color: white;
+    padding: 5%;
+    font-size: 22px;
+}
+h3 {
+    border-bottom: 1px solid;
+}
+#projects {
+    text-align: left;
+}
+nav {
+    text-align: center;
+}
+.nav {
+    padding: 10px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.nav:hover {
+    background-color: lightskyblue;
+}
+
+.nav:active {
+    background-color: deepskyblue;
+}
+
+.current {
+
+    background-color: darkgray !important;
+    color: black;
+    
+}
+#myFace{
+    padding: 20px;
+    border-radius: 50%;
+    width: 90%;
+}
+#sidePanelText{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
+#builtOn {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.sidePanel {
+    background: url('../images/closebackground.jpg');
+    height: 100%;
+    left: -350px;
+    position: fixed;
+    width: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#sideImg {
+    width: 50px;
+}
+#close {
+    width: 10%;
+    cursor: pointer;
+}
+#topBar {
+    cursor: pointer;
+}
+.contact {
+    color: white;
+}
+.contactDiv {
+    padding-top: 20px;
+    text-align: center;
+}
+#contactPanelButton {
+    padding-top: 9px;
+    display: inline-block;
+    vertical-align: top;
+}
+#contactPanelText {
+    display: inline-block;
+    color: white;
+}
